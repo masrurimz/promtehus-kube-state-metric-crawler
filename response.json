@@ -1,0 +1,36 @@
+[
+    {
+        "metric": {
+            "__name__": "kube_pod_container_state_started",
+            "container": "controller",
+            "endpoint": "http",
+            "instance": "10.244.3.5:8080",
+            "job": "kube-state-metrics",
+            "namespace": "metallb-system",
+            "pod": "controller-8689779bc5-gsljq",
+            "service": "myprometheus-kube-state-metrics",
+            "uid": "ad3b4825-c04f-4581-b406-7d41e7487a80"
+        },
+        "value": [
+            1666331003.541,
+            "1666322895"
+        ]
+    },
+    {
+        "metric": {
+            "__name__": "kube_pod_container_state_started",
+            "container": "speaker",
+            "endpoint": "http",
+            "instance": "10.244.3.5:8080",
+            "job": "kube-state-metrics",
+            "namespace": "metallb-system",
+            "pod": "speaker-5wx2p",
+            "service": "myprometheus-kube-state-metrics",
+            "uid": "0068bd1e-727b-441e-a08a-2165935fad63"
+        },
+        "value": [
+            1666331003.541,
+            "1666322917"
+        ]
+    }
+]
